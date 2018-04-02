@@ -1,0 +1,73 @@
+# 基础软件
+https://openresty.org/download/openresty-1.11.2.4.tar.gz
+http://mirrors.sohu.com/php/php-5.6.31.tar.gz
+http://mirrors.sohu.com/php/php-7.1.7.tar.gz
+http://mirrors.sohu.com/mysql/MySQL-5.6/mysql-5.6.36.tar.gz
+# Lib库
+https://ftp.pcre.org/pub/pcre/pcre-8.40.tar.gz
+ftp://mcrypt.hellug.gr/pub/crypto/mcrypt/libmcrypt/libmcrypt-2.5.7.tar.gz
+http://jaist.dl.sourceforge.net/project/mhash/mhash/0.9.9.9/mhash-0.9.9.9.tar.gz
+http://www.ijg.org/files/jpegsrc.v9a.tar.gz
+http://jaist.dl.sourceforge.net/project/libjpeg-turbo/1.4.2/libjpeg-turbo-1.4.2.tar.gz
+http://jaist.dl.sourceforge.net/project/libpng/libpng16/1.6.30/libpng-1.6.30.tar.gz
+http://jaist.dl.sourceforge.net/project/giflib/giflib-5.1.3.tar.gz
+ftp://ftp.remotesensing.org/pub/libtiff/tiff-4.0.4.tar.gz
+http://pkgs.fedoraproject.org/repo/pkgs/libwebp/libwebp-0.5.0.tar.gz/ba81eb9bf23e3c69a2f5cc8dcdb5938f/libwebp-0.5.0.tar.gz
+http://www.imagemagick.org/download/releases/ImageMagick-6.9.7-10.tar.xz
+ftp://ftp.graphicsmagick.org/pub/GraphicsMagick/1.3/GraphicsMagick-1.3.24.tar.gz
+http://download.openpkg.org/components/cache/memcached/libmemcached-1.0.18.tar.gz
+# https://github.com/ButoVideo/gearmand-latest/archive/master.zip
+https://github.com/Timandes/libdatrie/archive/r_0_2_9.zip && mv r_0_2_9.zip libdatrie-r_0_2_9.zip
+https://github.com/edenhill/librdkafka/archive/0.9.0.zip && mv 0.9.0.zip librdkafka-0.9.0.zip
+https://github.com/alanxz/rabbitmq-c/archive/v0.8.0.zip && mv v0.8.0.zip rabbitmq-c-0.8.0.zip
+https://github.com/happyfish100/fastdfs/archive/V5.08.zip && mv V5.10.zip fastdfs-5.08.zip
+https://github.com/happyfish100/libfastcommon/archive/V1.0.35.zip && mv V1.0.35.zip libfastcommon-1.0.35.zip
+https://github.com/BYVoid/OpenCC/archive/ver.1.0.5.zip && mv ver.1.0.5.zip opencc-1.0.5.zip
+# PHP 5/7公用扩展
+http://pecl.php.net/get/memcached-2.2.0.tgz
+http://pecl.php.net/get/imagick-3.4.3.tgz
+http://pecl.php.net/get/gmagick-1.1.7RC3.tgz
+http://pecl.php.net/get/redis-2.2.8.tgz
+http://pecl.php.net/get/redis-3.1.3.tgz
+http://pecl.php.net/get/mongo-1.6.14.tgz
+http://pecl.php.net/get/gearman-1.1.2.tgz
+http://pecl.php.net/get/memcache-3.0.8.tgz
+http://pecl.php.net/get/SeasLog-1.6.9.tgz
+http://pecl.php.net/get/yaf-2.3.5.tgz
+http://pecl.php.net/get/msgpack-0.5.7.tgz
+http://pecl.php.net/get/protobuf-3.3.2.tgz
+http://pecl.php.net/get/swoole-1.9.16.tgz
+http://pecl.php.net/get/swoole-2.0.7.tgz
+http://pecl.php.net/get/grpc-1.1.0.tgz
+http://pecl.php.net/get/geoip-1.1.1.tgz
+http://pecl.php.net/get/apcu-4.0.11.tgz
+http://pecl.php.net/get/rdkafka-3.0.3.tgz
+http://pecl.php.net/get/amqp-1.9.1.tgz
+http://pecl.php.net/get/stomp-1.0.9.tgz
+http://pecl.php.net/get/igbinary-2.0.1.tgz
+http://pecl.php.net/get/xdebug-2.5.5.tgz
+http://pecl.php.net/get/xhprof-0.9.4.tgz
+https://github.com/wulijun/php-ext-trie-filter/archive/master.zip && mv master.zip php-ext-trie-filter-master.zip
+https://github.com/NauxLiu/opencc4php/archive/master.zip && mv master.zip opencc4php.zip
+# PHP7 独有扩展
+https://github.com/phpredis/phpredis/archive/php7.zip; mv php7.zip phpredis-php7.zip
+http://pecl.php.net/get/gmagick-2.0.4RC1.tgz
+https://github.com/php-memcached-dev/php-memcached/archive/v3.0.3.zip && mv v3.0.3.zip php-memcached-3.0.3.zip
+http://pecl.php.net/get/mongodb-1.2.9.tgz
+https://github.com/bymaximus/pecl-gearman-php7/archive/master.zip && mv master.zip pecl-gearman-php7-master.zip
+http://pecl.php.net/get/yaf-3.0.5.tgz
+http://pecl.php.net/get/msgpack-2.0.2.tgz
+https://github.com/serggp/php-protobuf/archive/php7.zip &&  mv php7.zip php-protobuf-php7.zip
+http://pecl.php.net/get/stomp-2.0.1.tgz
+http://pecl.php.net/get/grpc-1.4.1.tgz
+http://pecl.php.net/get/apcu-5.1.8.tgz
+https://github.com/Yaoguais/phpng-xhprof/archive/master.zip && mv master.zip phpng-xhprof-master.zip
+# 默认配置文件 （配置文件下载存储在 /home/work/soft/conf 目录）
+https://raw.githubusercontent.com/heiyeluren/tools/master/lnmp_install/dqd-nginx.conf
+https://raw.githubusercontent.com/heiyeluren/tools/master/lnmp_install/dqd-vhost.conf.example
+https://raw.githubusercontent.com/heiyeluren/tools/master/lnmp_install/dqd-php5.6.ini
+https://raw.githubusercontent.com/heiyeluren/tools/master/lnmp_install/dqd-php5.6-fpm.conf
+https://raw.githubusercontent.com/heiyeluren/tools/master/lnmp_install/dqd-php5.6-fpm.www.conf
+https://raw.githubusercontent.com/heiyeluren/tools/master/lnmp_install/dqd-php7.1.ini
+https://raw.githubusercontent.com/heiyeluren/tools/master/lnmp_install/dqd-php7.1-fpm.conf
+https://raw.githubusercontent.com/heiyeluren/tools/master/lnmp_install/dqd-php7.1-fpm.www.conf
